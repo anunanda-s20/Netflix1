@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    
+    
+}
+
+/*header*/
+
+header{
+    background-image: url("netflix_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+nav img {
+    width: 15%;
+ }
+ .text-area {
+    height: 500px;
+    padding-top:300px;
+    background: transparent;
+ }
+ .h1-text-area {
+     font-weight: 900;
+    font-size: 45px;
+ }
+
+.container-fluid{
+    margin: 50px;
+}
+
+
+    
+    
+
+
+
+
+.cards{
+
+    background-color: black;
+}
+
+.questions{
+
+    background-color: black;
+}
+
+
+
+
+.accordion{
+    background-color: black;
+}
+
+.row{
+    background-color: black;
+}
+
+.more{
+    background-color: black;
+    color: white;
+}
+
+.mail{
+    width: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 15px 15px 17px;
+}
+
+
+
+.btn-danger{
+    color: #fff;
+    border-radius: 60%;
+    padding: 20px;
+    background-color: red;
+    background-color: red;
+    width: 10%;
+    height: 15%;
+}
+
+.first {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/netflix_background.jpg');
+}
+
+
+
+/*movie-section*/
+.movie-section .image{
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.movie-section .image:hover {
+    transform: scale(105%);
+    box-shadow: 3px 5px 15px rgba(241, 4, 4, 0.932);
+}
+
+
+.cardphoto{
+    background-color: black;
+}
+
+
+
+.questions {
+    background-color: black;
+    color: white;
+}
+.questions .accordion-button {
+    color: white;
+    background-color: #333; /* Adjust the button background if needed */
+    border-color: #444; /* Adjust border color if needed */
+}
+.questions .accordion-button.collapsed {
+    color: white;
+    background-color: #333;
+}
